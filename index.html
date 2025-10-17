@@ -5,15 +5,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>🎓 Graduation Memories</title>
   <link rel="stylesheet" href="style.css" />
+
+  <!-- ฟอนต์ Mali -->
   <link href="https://fonts.googleapis.com/css2?family=Mali:wght@300;400;600&display=swap" rel="stylesheet">
 </head>
 <body>
-  <!-- 🩷 หน้าปกเริ่ม -->
   <div id="startOverlay">
     <h2>กดเพื่อเริ่ม 💖</h2>
     <button onclick="startAll()">เริ่มเลย</button>
   </div>
-
   <div class="page">
     <header>
       <h1>🎓 Graduation 🎓</h1>
@@ -36,7 +36,9 @@
 
       <!-- สไลด์ 3 -->
       <section class="slide">
-        <img src="img/slide3.jpg" alt="Memory 1" />
+        <div class="photo-grid">
+          <img src="img/slide3.jpg" alt="Memory 1" />
+        </div>
         <p>วันนี้เธอทำได้แล้ว!💐</p>
         <p>ความพยายามของเธอคือสิ่งที่น่าชื่นชมที่สุด ❤️</p>
       </section>
@@ -62,13 +64,13 @@
         <p>ขอให้ชีวิตหลังจบเต็มไปด้วยแรงบันดาลใจและความสำเร็จ ✨</p>
       </section>
 
-      <!-- สไลด์ 7 -->
-      <section class="slide">
+      <!-- สไลด์ที่ 7 -->
+       <section class="slide">
         <img src="img/slide7.jpg" alt="The End" /> 
         <h2>🎉 The End 🎉</h2>
         <p>ด้วยรักและภูมิใจในตัวเธอเสมอ ❤️</p>
         <p>จากน้องสาวที่รักที่สุด 😘</p>
-      </section>
+       </section>
     </main>
 
     <div class="nav">
@@ -77,7 +79,7 @@
     </div>
   </div>
 
-  <audio id="bgm" src="bgm.mp3" loop></audio>
+  <audio id="bgm" src="bgm.mp3" autoplay loop></audio>
   <script src="script.js"></script>
 </body>
 </html>
