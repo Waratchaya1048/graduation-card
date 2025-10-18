@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>🎓 Graduation Memories</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Mali:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Overlay เริ่มต้น -->
+  <div id="startOverlay">
+    <h2>กดเพื่อเริ่ม 💖</h2>
+    <button onclick="startAll()">เริ่มเลย</button>
+  </div>
+
+  <div class="page">
+    <header>
+      <h1>🎓 Graduation Memories 🎓</h1>
+    </header>
+
+    <main class="slides">
+      <!-- Slide 1 -->
+      <section class="slide active">
+        <img src="slide1.jpg" alt="Cover" />
+        <h2>Congratulations 💖</h2>
+        <p>ยินดีด้วยกับความสำเร็จของเธอ! 🌸</p>
+      </section>
+
+      <!-- Slide 2 -->
+      <section class="slide">
+        <img src="slide2.jpg" alt="Friends" />
+        <p>ขอให้อนาคตเต็มไปด้วยความสุขและความสำเร็จ 🌟</p>
+      </section>
+
+      <!-- Slide 3 -->
+      <section class="slide">
+        <img src="slide3.jpg" alt="Memories" />
+        <p>ทุกภาพคือความทรงจำดี ๆ ที่จะอยู่ในใจตลอดไป 💐</p>
+      </section>
+
+      <!-- Slide 4 -->
+      <section class="slide">
+        <img src="slide4.jpg" alt="Teacher" />
+        <p>ขอบคุณคุณครูและเพื่อน ๆ ที่อยู่เคียงข้างเสมอ 🌈</p>
+      </section>
+
+      <!-- Slide 5 -->
+      <section class="slide">
+        <img src="slide5.jpg" alt="Thanks" />
+        <p>จบแล้ว...แต่การเดินทางเพิ่งเริ่มต้น 🌷</p>
+      </section>
+
+      <!-- Slide 6 (สุดท้าย ไม่มีปุ่ม) -->
+      <section class="slide">
+        <img src="slide6.jpg" alt="End" />
+        <h2>🎉 Congratulations! 🎓💖</h2>
+        <p>เธอทำได้แล้ว! ขอให้เส้นทางข้างหน้าเต็มไปด้วยรอยยิ้ม ✨</p>
+      </section>
+    </main>
+
+    <div class="nav">
+      <button id="nextBtn">ถัดไป ➡</button>
+    </div>
+  </div>
+
+  <audio id="bgm" src="bgm.mp3" loop></audio>
+  <script src="script.js"></script>
+</body>
+</html>
