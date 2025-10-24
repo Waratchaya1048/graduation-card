@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>🎓 Graduation Memories</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Mali:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Overlay เริ่มต้น -->
+  <div id="startOverlay">
+    <h2>กดเพื่อเริ่ม 💖</h2>
+    <button onclick="startAll()">เริ่มเลย</button>
+  </div>
+
+  <div class="page">
+    <header>
+      <h1>🎓 Graduation 🎓</h1>
+    </header>
+
+    <main class="slides">
+      <!-- Slide 1 -->
+      <section class="slide active">
+        <img src="slide1.jpg" alt="slide1" />
+        <h2>Congratulations 💖</h2>
+        <p>ยินดีด้วยกับความสำเร็จของเธอ! 🌸</p>
+      </section>
+
+      <!-- Slide 2 -->
+      <section class="slide">
+        <img src="slide2.jpg" alt="slide2" />
+       <p>ขอแสดงความยินดีกับบัณฑิตคนเก่ง!🎓</p>
+        <p>ขอให้เส้นทางหลังเรียนจบเต็มไปด้วยโอกาสดี ๆ และความสุขนะ 🌟</p>
+      </section>
+
+      <!-- Slide 3 -->
+      <section class="slide">
+        <img src="slide3.jpg" alt="slide3" />
+        <p>วันนี้เธอทำได้แล้ว!💐</p>
+        <p>ความพยายามของเธอคือสิ่งที่น่าชื่นชมที่สุด ❤️</p>
+      </section>
+
+      <!-- Slide 4 -->
+      <section class="slide">
+        <img src="slide4.jpg" alt="slide4" />
+        <p>จงก้าวไปข้างหน้าด้วยความมั่นใจ🌈</p>
+        <p>เพราะทุกประสบการณ์จะนำทางสู่อนาคตที่สดใส 🎉</p>
+      </section>
+
+      <!-- Slide 5 -->
+      <section class="slide">
+        <img src="slide5.jpg" alt="slide5" />
+        <p>จบแล้ว...แต่ความฝันยังไม่จบทันที!🌷</p>
+        <p>ขอให้เดินต่อไปอย่างกล้าหาญและมีรอยยิ้ม 💖</p>
+      </section>
+
+      <!-- Slide 6-->
+       <section class="slide">
+        <img src="slide6.jpg" alt="slide6" />
+        <p>ก้าวใหม่กำลังเริ่มต้น🌻</p>
+        <p>ขอให้ชีวิตหลังจบเต็มไปด้วยแรงบันดาลใจและความสำเร็จ ✨</p>
+      </section>
+
+      <!-- Slide 8 -->
+      <section class="slide">
+        <img src="slide8.jpg" alt="slide8" />
+        <p>จบแล้ว...แต่ความฝันยังไม่จบ 💭</p>
+        <p>ขอให้เดินตามฝันอย่างไม่หยุดยั้ง 🌷</p>
+      </section>
+
+      <!-- Slide 9 -->
+      <section class="slide">
+        <img src="slide9.jpg" alt="slide9" />
+        <p>ก้าวแรกของชีวิตใหม่เริ่มต้นขึ้นแล้ว 🌻</p>
+        <p>ขอให้ทุกวันของเธอเต็มไปด้วยพลังและความสุข 🌈</p>
+      </section>
+
+      <!-- Slide 10 -->
+      <section class="slide">
+        <img src="slide10.jpg" alt="slide10" />
+        <p>ไม่ว่าเส้นทางข้างหน้าจะยากแค่ไหน 💪</p>
+        <p>จำไว้นะ...มีคนเชื่อมั่นและรักเธอเสมอ 💖</p>
+      </section>
+
+      <!-- Slide 7 (สุดท้าย ไม่มีปุ่ม) -->
+      <section class="slide">
+        <img src="slide7.jpg" alt="slide7" />
+        <h2>🎉 Congratulations! 🎓💖</h2>
+        <p>ด้วยรักและภูมิใจในตัวเธอเสมอ ❤️</p>
+        <p>จากน้องสาวที่รักที่สุด 😘</p>
+      </section>
+    </main>
+
+    <div class="nav">
+      <button id="nextBtn">ถัดไป ➡</button>
+    </div>
+  </div>
+
+  <audio id="bgm" src="bgm.mp3" loop></audio>
+  <script src="script.js"></script>
+</body>
+</html>
